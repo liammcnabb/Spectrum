@@ -475,7 +475,7 @@ public:
 
         ColourMap redBlue;
         redBlue.setMapName("Colour Brewer, Red -> Blue") ;
-        redBlue.getClassification() = DIVERGING;
+        redBlue.setClassification(CMClassification::DIVERGING);
         redBlue.addColour(165,0,38,1.0f);
         redBlue.addColour(215,48,39,1.0f);
         redBlue.addColour(244,109,67,1.0f);
